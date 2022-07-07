@@ -1,0 +1,6 @@
+record pci-device {
+    vendor-id: u16,
+    device-id: u16,
+}
+
+init: func(dev: pci-device)
